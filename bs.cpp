@@ -37,7 +37,7 @@ else if(a[m]>t)
 }
 else
 {
-s=s+1;
+s=m+1;
 
 
 }
