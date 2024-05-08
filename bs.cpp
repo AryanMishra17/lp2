@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-    int n=10;
-    cout<<"Enter the size of array "<<n;
+    int n=4;
+    cout<<"Enter the size of array "<<n<<endl;
    
     
     int arr[n]={10,20,30,40};
@@ -12,8 +12,8 @@ int main()
     for(int i=0;i<n;i++)
         cout<<arr[i]<<' ' <<endl;    
     
-    int target=10;
-    cout<<"key want to search => 10  ";
+    int target=30;
+    cout<<"key want to search =>"<<target<<endl;
  
     
     int start = 0, end = n-1, mid;
@@ -40,9 +40,6 @@ int main()
         
     return 0;
 }
-
-
-
 
 
 
